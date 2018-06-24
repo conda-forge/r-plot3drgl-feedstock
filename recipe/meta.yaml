@@ -15,7 +15,7 @@ source:
   sha256: 466d428d25c066c9c96d892f24da930513d42b1bdf76d3b53628c3ba13c3e48a
 
 build:
-  number: 0
+  number: 1
   # no r-rgl on OSX
   skip: true  # [win32 or osx]
   rpaths:
