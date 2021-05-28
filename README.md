@@ -3,7 +3,7 @@ About r-plot3drgl
 
 Home: https://CRAN.R-project.org/package=plot3Drgl
 
-Package license: GPL (>= 3.0)
+Package license: GPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plot3drgl-feedstock/blob/master/LICENSE.txt)
 
