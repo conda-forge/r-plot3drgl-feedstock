@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plot3Drgl_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plot3Drgl/plot3Drgl_{{ version }}.tar.gz
-  sha256: aa874891446a395f01791d80a5a0f1f9a1c2c41f029de3a8d5af9aa47f46a496
+  sha256: 805513029895cf5a81f18ede4123ef2525a236cd555437609229fe720c346e14
 
 build:
   merge_build_host: true  # [win]
