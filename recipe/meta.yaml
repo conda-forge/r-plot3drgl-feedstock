@@ -1,4 +1,4 @@
-{% set version = "1.0.2" %}
+{% set version = "1.0.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plot3Drgl_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plot3Drgl/plot3Drgl_{{ version }}.tar.gz
-  sha256: 805513029895cf5a81f18ede4123ef2525a236cd555437609229fe720c346e14
+  sha256: 6d87a9a32aba3aa64f751268cabd14dbd3e0eca2bd5f0a4b11366cd1e2f51bdd
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -39,7 +39,7 @@ requirements:
 
 test:
   commands:
-    - LD_LIBRARY_PATH="${BUILD_PREFIX}/x86_64-conda-linux-gnu/sysroot/usr/lib64:${BUILD_PREFIX}/lib" $R -e "library('plot3Drgl')"  # [not win]
+    - LD_LIBRARY_PATH="${BUILD_PREFIX}/x86_64-conda-linux-gnu/sysroot/usr/lib64: ${BUILD_PREFIX}/lib" $R -e "library('plot3Drgl')"  # [not win]
     - "\"%R%\" -e \"library('plot3Drgl')\""  # [win]
 
 about:
