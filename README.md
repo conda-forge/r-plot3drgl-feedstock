@@ -1,11 +1,11 @@
-About r-plot3drgl
-=================
+About r-plot3drgl-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plot3drgl-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=plot3Drgl
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plot3drgl-feedstock/blob/main/LICENSE.txt)
 
 Summary: The 'rgl' implementation of plot3D functions.
 
