@@ -1,4 +1,4 @@
-{% set version = "1.0.4" %}
+{% set version = "1.0.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plot3Drgl_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plot3Drgl/plot3Drgl_{{ version }}.tar.gz
-  sha256: 6d87a9a32aba3aa64f751268cabd14dbd3e0eca2bd5f0a4b11366cd1e2f51bdd
+  sha256: 75ceeaef9b369f6b7bc8408dc9dcfff232ac127591b7d729b7bb6075cd01dc74
 
 build:
   number: 0
