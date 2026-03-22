@@ -12,7 +12,7 @@ source:
   sha256: 75ceeaef9b369f6b7bc8408dc9dcfff232ac127591b7d729b7bb6075cd01dc74
 
 build:
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -21,11 +21,6 @@ build:
 requirements:
   build:
     - {{ posix }}zip                   # [win]
-    - {{ cdt('mesa-libgl-devel') }}  # [linux]
-    - {{ cdt('libxdamage') }}        # [linux]
-    - {{ cdt('libxfixes') }}         # [linux]
-    - {{ cdt('libxxf86vm') }}        # [linux]
-    - {{ cdt('mesa-dri-drivers') }}  # [linux]
   host:
     - r-base
     - r-plot3d
