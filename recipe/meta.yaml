@@ -25,7 +25,6 @@ requirements:
     - r-base
     - r-plot3d
     - r-rgl
-    - libgl-devel                    # [linux]
   run:
     - r-base
     - r-plot3d
